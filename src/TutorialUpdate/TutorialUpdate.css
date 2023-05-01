@@ -1,0 +1,23 @@
+.tutorial-update {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+  
+  .canvas-container {
+    background-color: #ffffff;
+    flex: 1;
+    margin-bottom: 50px;
+  }
+  
+  .toolbar {
+    background-color: #2C2F33;
+    color: #FFF;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+  }
+  

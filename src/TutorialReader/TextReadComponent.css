@@ -1,0 +1,25 @@
+/* TextReadComponent.css */
+
+.text-read-component::-webkit-scrollbar {
+    width: 6px; /* Narrow scrollbar width */
+    height: 6px; /* Narrow scrollbar height */
+  }
+  
+  .text-read-component::-webkit-scrollbar-track {
+    background: #000000; /* Dark gray background color */
+    border-radius: 4px;
+  }
+  
+  .text-read-component::-webkit-scrollbar-thumb {
+    background: #adabab; /* Dark gray scrollbar color */
+    border-radius: 4px;
+  }
+  
+  .text-read-component::-webkit-scrollbar-thumb:hover {
+    background: #000000; /* Slightly lighter gray on hover */
+  }
+  
+  .text-read-component img {
+    max-width: -webkit-fill-available;
+    max-height: -webkit-fill-available;
+  }

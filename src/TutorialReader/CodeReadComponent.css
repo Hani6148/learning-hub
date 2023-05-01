@@ -1,0 +1,21 @@
+/* CodeReadComponent.css */
+
+.code-read-component::-webkit-scrollbar {
+    width: 6px; /* Narrow scrollbar width */
+    height: 6px; /* Narrow scrollbar height */
+  }
+  
+  .code-read-component::-webkit-scrollbar-track {
+    background: #2D2D2D; /* Dark gray background color */
+    border-radius: 4px;
+  }
+  
+  .code-read-component::-webkit-scrollbar-thumb {
+    background: #4C4C4C; /* Dark gray scrollbar color */
+    border-radius: 4px;
+  }
+  
+  .code-read-component::-webkit-scrollbar-thumb:hover {
+    background: #686868; /* Slightly lighter gray on hover */
+  }
+  

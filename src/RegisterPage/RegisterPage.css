@@ -1,0 +1,28 @@
+/* RegisterPage.css */
+.register-page {
+    min-height: calc(100vh - 60px - 100px); /* Subtract height of navbar and footer */
+    display: flex;
+    align-items: center;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  

@@ -1,0 +1,43 @@
+.toolbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #f4f4f4;
+    height: 100%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .toolbar-item {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .toolbar-item label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 8px 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #6b71bb;
+  }
+  
+  @media (max-width: 768px) {
+    .toolbar {
+      align-items: center;
+    }
+  }
+  

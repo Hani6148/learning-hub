@@ -1,0 +1,17 @@
+/* LoginPage.css */
+.login-page {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20vh;
+  }
+  
+  .register-link {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  .register-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }

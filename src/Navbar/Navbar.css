@@ -1,0 +1,66 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .nav-items-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #ffd700;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: overline;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    flex-direction: row;
+
+  }
+  
+  .nav-item {
+    margin-left: 1rem;
+  }
+  
+  .nav-item.login {
+    margin-left: 1rem;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .nav-link:hover,
+  .nav-link.active {
+    color: #ffd700;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+  }
+  

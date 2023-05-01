@@ -1,0 +1,34 @@
+.tutorial-reader-title{
+    margin: auto;
+    width: fit-content;
+    margin-bottom: 2vh;
+    
+}
+
+.tutorial-reader{
+    
+    margin-top: 10vh;
+   
+    
+}
+.tutorial-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    width: 80%;
+    
+  }
+  
+  .tutorial-description-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .tutorial-author {
+    font-size: 1rem;
+    color: #757575;
+  }
+  
